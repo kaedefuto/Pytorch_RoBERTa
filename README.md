@@ -7,7 +7,6 @@
 - 環境:Ubuntu18.04
 - GPU:Quadro RTX 8000
 - ドライバー:NVIDIA-SMI 460.32.03, Driver Version: 460.32.03, CUDA Version: 11.2
-- 形態素解析時にストップワードを利用する場合はbert.pyの25行目と731行目のコメントアウトを外すこと
 - EarlyStoppingを利用する場合はhttps://github.com/Bjarten/early-stopping-pytorch からpytorchtools.pyをutilsにインストールし学習・検証のコメントアウトを外すこと
 - predicted_test.csvに結果が出力される
     
